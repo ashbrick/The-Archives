@@ -10,4 +10,4 @@ We created a design document before we started building in order to organize our
 
 ### How will we set things up?
 
-## Which functions, classes, data structures will we need?
+### Which functions, classes, data structures will we need?
