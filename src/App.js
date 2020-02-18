@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import AppNavBar from './components/AppNavBar';
 import FrontPage from './components/FrontPage';
+import ToDoList from './components/ToDoList';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             </div>
       </div>
       <FrontPage />
+      <ToDoList />
     </div>
   );
 }
