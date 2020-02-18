@@ -12,7 +12,7 @@ class AppNavBar extends Component {
     
     render(){
         return(
-            <div>
+            <nav>
                 <Navbar color="dark" dark expand="sm" className="navbar-text mr-3">
                     <Container>
                         <Nav className="ml-auto" navbar>
@@ -34,7 +34,7 @@ class AppNavBar extends Component {
                         </Nav>
                     </Container>
                 </Navbar>
-            </div>
+            </nav>
         );
     }
 }
