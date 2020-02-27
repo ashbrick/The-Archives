@@ -2,14 +2,14 @@ import React from 'react';
 import './App.css';
 import AppNavBar from './components/AppNavBar';
 import FrontPage from './components/FrontPage';
-import ToDoList from './components/ToDoList';
+import ToDoApp from './components/ToDoApp';
 
 function App() {
   return (
     <div className="App">
       <AppNavBar />
       <FrontPage />
-      <ToDoList />
+      <ToDoApp />
     </div>
   );
 }
