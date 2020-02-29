@@ -3,6 +3,7 @@ import './App.css';
 import AppNavBar from './components/AppNavBar';
 import FrontPage from './components/FrontPage';
 import ToDoApp from './components/ToDoApp';
+import Learn from './components/Learn';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <AppNavBar />
       <FrontPage />
       <ToDoApp />
+      <Learn />
     </div>
   );
 }
