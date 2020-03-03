@@ -16,7 +16,7 @@ class AppNavBar extends Component {
                     <Container>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                To-Dos
+                                Task Manger
                             </NavItem>
                             <NavItem>
                                 Calendar
