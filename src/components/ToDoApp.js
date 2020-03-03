@@ -1,13 +1,16 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react';
 
-export class ToDoApp extends Component {
-    render() {
-        return (
-            <div>
-                
-            </div>
-        )
-    }
+
+const ToDoApp = () => {
+
+    return (
+        <header>
+            <form id="to-dos">
+                <input type="text" placeholder="Your to-do goes here..."></input>
+                <button type="submit">Add</button>
+            </form>
+        </header>
+    )
 }
 
-export default ToDoApp
+export default ToDoApp;
