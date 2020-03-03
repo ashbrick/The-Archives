@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
     Navbar,
-    NavbarToggler,
     Nav,
     NavItem,
     Container, 
@@ -25,12 +24,16 @@ class AppNavBar extends Component {
                             <NavItem>
                                 Learn
                             </NavItem>
+
                             <NavItem>
                                 Job Search
                             </NavItem>
                             <NavLink>
                                 Login
                             </NavLink>
+                            <NavItem>
+                                Themes:button dropdown
+                            </NavItem>
                         </Nav>
                     </Container>
                 </Navbar>
